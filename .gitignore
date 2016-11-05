@@ -1,6 +1,10 @@
-# App Configuration  #
-######################
-config.php
+# Editors #
+###########
+.idea
+
+# App Configuration #
+#####################
+js/config.js
 
 # OS generated files #
 ######################
