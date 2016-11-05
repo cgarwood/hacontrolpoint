@@ -19,8 +19,8 @@ var HomeAssistantApi = new HomeAssistantApi(window.ha_url, function (entity) {
 // Wait for DOM
 $$(document).on('DOMContentLoaded', function () {
 
-    // Load entities
-    HomeAssistantApi.getEntities();
+    // Initialise API
+    HomeAssistantApi.getConfiguration();
 
     // Setup Event Stream Listener
     HomeAssistantApi.setEventStreamListener();
