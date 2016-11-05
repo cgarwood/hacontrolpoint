@@ -92,7 +92,7 @@ var haentities = [];
 var gotData = false;
 
 function getEntities() {
-	$.getJSON('haproxy.php', {'path':'api/states'}, function(data) {
+	$.getJSON(window.ha_url + '/api/states', {}, function(data) {
 		//Process the data
 		window.haentities = data;
 		window.gotData = true;
